@@ -1,0 +1,3 @@
+com.cert.common.encrypt.config.EncryptorAutoConfiguration
+com.cert.common.encrypt.config.ApiDecryptAutoConfiguration
+

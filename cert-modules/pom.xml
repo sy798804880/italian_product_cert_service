@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cert-vue-plus</artifactId>
+        <groupId>com.cert</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>cert-demo</module>
+        <module>cert-generator</module>
+        <module>cert-job</module>
+        <module>cert-system</module>
+        <module>cert-workflow</module>
+        <module>hme-master-data</module>
+        <module>hme-lab</module>
+        <module>hme-production</module>
+        <module>hme-certificate</module>
+    </modules>
+
+    <artifactId>cert-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        cert-modules 业务模块
+    </description>
+
+</project>

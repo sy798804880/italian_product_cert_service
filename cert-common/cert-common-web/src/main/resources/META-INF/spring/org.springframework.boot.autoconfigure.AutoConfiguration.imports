@@ -1,0 +1,5 @@
+com.cert.common.web.config.CaptchaConfig
+com.cert.common.web.config.FilterConfig
+com.cert.common.web.config.I18nConfig
+com.cert.common.web.config.ResourcesConfig
+com.cert.common.web.config.UndertowConfig

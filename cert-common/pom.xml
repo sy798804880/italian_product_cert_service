@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cert-vue-plus</artifactId>
+        <groupId>com.cert</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>cert-common-bom</module>
+        <module>cert-common-social</module>
+        <module>cert-common-core</module>
+        <module>cert-common-doc</module>
+        <module>cert-common-excel</module>
+        <module>cert-common-idempotent</module>
+        <module>cert-common-job</module>
+        <module>cert-common-log</module>
+        <module>cert-common-mail</module>
+        <module>cert-common-mybatis</module>
+        <module>cert-common-oss</module>
+        <module>cert-common-ratelimiter</module>
+        <module>cert-common-redis</module>
+        <module>cert-common-satoken</module>
+        <module>cert-common-security</module>
+        <module>cert-common-sms</module>
+        <module>cert-common-web</module>
+        <module>cert-common-translation</module>
+        <module>cert-common-sensitive</module>
+        <module>cert-common-json</module>
+        <module>cert-common-encrypt</module>
+        <module>cert-common-tenant</module>
+        <module>cert-common-websocket</module>
+        <module>cert-common-sse</module>
+    </modules>
+
+    <artifactId>cert-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
